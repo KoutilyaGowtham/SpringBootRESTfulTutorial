@@ -60,7 +60,7 @@
          <artifactId>maven-compiler-plugin</artifactId>
             <configuration>
                <source>1.8</source>
-               <target>/etc/target</target>
+               <target>1.8</target>
                <compilerVersion>3.1</compilerVersion>               
                <executable>/usr/lib/jvm/java-openjdk/bin/javac</executable>
             </configuration>
