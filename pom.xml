@@ -56,15 +56,16 @@
 				 <groupId>org.codehaus.mojo</groupId>
 				<artifactId>animal-sniffer-maven-plugin</artifactId>
 				<version>1.15</version>
-			</plugin>
-		        <plugin>
-                               <artifactId>maven-compiler-plugin</artifactId>
-                               <configuration>
+				 <configuration>
 				 <source>1.8</source>		
                                  <target>1.8</target>
                                  <compilerVersion>3.1</compilerVersion>               
                                  <executable>/usr/lib/jvm/java-openjdk/bin/javac</executable>
                                </configuration>
+			</plugin>
+		        <plugin>
+                               <artifactId>maven-compiler-plugin</artifactId>
+                              
                        </plugin>
 		</plugins>
 	</build>
