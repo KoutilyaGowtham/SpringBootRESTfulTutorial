@@ -62,6 +62,7 @@
 				<configuration>
 				 <source>1.7</source>		
  -                               <target>1.7</target>
+				 <executable>/usr/lib/jvm/java-openjdk/bin/javac</executable>
 				</configuration>
                        </plugin>
 		</plugins>
